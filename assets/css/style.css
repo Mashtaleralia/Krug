@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #090a02;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+  height: 100vh;
+  background: url("../images/mainkrug.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.intro__inner {
+  width: 100%;
+  max-width: 700px;
+}
+
+.intro__suptitle {
+  font-size: 96px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  line-height: 3;
+}
+
+.intro__title {
+  font-size: 32px;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 1.5;
+  max-width: 485;
+}
+
+.header {
+  width: 100%;
+  height: 62px;
+  background-color: #000000;
+  padding-top: 16px;
+}
+
+.nav {
+  font-size: 24px;
+  font-weight: 400px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav__link {
+  display: inline-block;
+  margin: 0 60px;
+  color: #fff;
+}
+
+.header__inner {
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 24px;
+  font-weight: lighter;
+  padding: 6px 30px;
+  margin: 200px 450px;
+  position: absolute;
+}
+
+.main {
+  color: #fff;
+
+  font-weight: 300;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.discography {
+  margin: 0;
+}
+
+.discography__title {
+  font-size: 24px;
+  font-weight: 300;
+}
+.discography__title:after {
+  content: "";
+  display: block;
+  width: 137px;
+  height: 1px;
+  background-color: #fff;
+  margin: 21px auto 0;
+}
+.albums-row {
+  margin-bottom: -35px;
+}
+
+img {
+  margin-right: -6px;
+}
+
+.biography__title {
+  font-size: 24;
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+.biography__title:after {
+  content: "";
+  display: block;
+  width: 137px;
+  height: 1px;
+  background-color: #fff;
+  margin: 21px auto 0;
+}
+.rows {
+  margin-top: 51px;
+}
+
+.biography__paragraph {
+  width: 881px;
+  height: 378px;
+  margin: 0px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.biography {
+  margin: 0px;
+}
+.biography__title {
+  margin-top: 79px;
+}
+.biography__paragraph {
+  text-align: center;
+  margin-left: 128px;
+  position: absolute;
+  margin-top: 48px;
+}
+
+/* Strore */
+.store{}
+
+.store__title {
+  margin-top: 446px;
+  font-weight: 300;
+}
+.store__title:after {
+  content: "";
+  display: block;
+  width: 137px;
+  height: 1px;
+  background-color: #fff;
+  margin: 21px auto 0;
+}
+.album-pic {
+  position: relative;
+  left: 160px;
+  top: -25px;
+}
+.plastinka-pic {
+  left: -119px;
+}
+figure figcaption {
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+span {
+  font-size: 20px;
+}
+.store__button {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 2px 22px;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 300px;
+}
